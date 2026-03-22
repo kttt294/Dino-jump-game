@@ -1,5 +1,3 @@
-# Dino Jump
-
 ## Hướng Dẫn Cách Chơi
 1. Mở file `index.html` (trong thư mục `new-game`) bằng bất kỳ trình duyệt web nào.
 2. Nhấn nút **"Bắt đầu ngay"**.
