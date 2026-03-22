@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dino Jump - Neon Edition</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <div class="container">
+        <!-- Landing Screen -->
+        <div id="landing-screen" class="screen active">
+            <h1 class="glitch-text">Dino Jump</h1>
+            <p class="subtitle">Nhảy qua những chướng ngại vật!</p>
+            <button id="start-btn" class="glass-btn pulse">Bắt đầu ngay</button>
+        </div>
+
+        <!-- Game Screen -->
+        <div id="game-screen" class="screen">
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="label">Điểm:</span>
+                    <span id="score-count" class="value">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="label">Kỷ lục:</span>
+                    <span id="high-score" class="value">0</span>
+                </div>
+            </div>
+
+            <div class="game-card glass-card">
+                <canvas id="game-canvas"></canvas>
+            </div>
+
+            <div id="game-over-overlay" class="overlay hidden">
+                <h2>GAME OVER!</h2>
+                <button id="restart-btn" class="glass-btn secondary">Chơi lại</button>
+            </div>
+
+            <button id="exit-btn" class="text-btn">Quay lại</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
