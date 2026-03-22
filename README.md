@@ -1,9 +1,5 @@
 # Dino Jump
 
-Phiên bản nâng cấp "xịn xò" của tựa game khủng long huyền thoại trên Google Chrome mỗi khi mất mạng! 
-
-Với **Dino Jump - Neon Edition**, chúng tôi đã mang đến một diện mạo hoàn toàn mới với giao diện Glassmorphism tràn đầy màu sắc tươi sáng, cùng với nhịp độ chơi được đẩy lên mức "hardcore" hơn để thỏa mãn các game thủ đam mê thử thách.
-
 ## Hướng Dẫn Cách Chơi
 1. Mở file `index.html` (trong thư mục `new-game`) bằng bất kỳ trình duyệt web nào.
 2. Nhấn nút **"Bắt đầu ngay"**.
